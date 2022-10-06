@@ -1,0 +1,26 @@
+html{
+    background-image: conic-gradient(red 45deg,yellow 90deg,green 210deg,blue 255deg,black);
+    background-repeat: no-repeat;
+    color: white;
+}
+div{
+    display: flex;
+}
+
+#todo-item{
+    width: 250px;
+    height: 30px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px;
+    /* background-color: transparent; */
+
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    width: 125px;
+    background-color: transparent;
+    border-radius: 10px;
+}
