@@ -1,10 +1,24 @@
 html{
-    background-image: conic-gradient(red 45deg,yellow 90deg,green 210deg,blue 255deg,black);
-    background-repeat: no-repeat;
+    /* background-image: conic-gradient(red 45deg,yellow 90deg,green 210deg,blue 255deg,black);
+    background-repeat: no-repeat; */
     color: white;
+
+    background-image: linear-gradient(to left, #898db1,#004e92);
 }
 div{
     display: flex;
+}
+
+.heading{
+    margin: 10px;
+    font-size: 3.4rem;
+}
+hr{
+    width: 320px;
+    float: left;
+    border: 2px solid white;
+    margin-left: 10px;
+    
 }
 
 #todo-item{
@@ -13,6 +27,7 @@ div{
     font-size: 1.2rem;
     padding: 10px;
     margin: 10px;
+    /* border-radius: 10px; */
     /* background-color: transparent; */
 
 }
@@ -21,6 +36,30 @@ div{
     margin: 10px;
     padding: 10px;
     width: 125px;
+    background-color:  rgb(155, 153, 223);
+    /* border-radius: 10px; */
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+.btn:hover{
     background-color: transparent;
-    border-radius: 10px;
+}
+
+.btnInner{
+    font-size: 1.1rem;
+    margin-left: 20px;
+    width: 80px;
+    color: black;
+    background-color: rgb(155, 153, 223);
+}
+.btnInner:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+li{
+    font-size: 1.5rem;
+    /* letter-spacing: .1rem; */
+
 }
