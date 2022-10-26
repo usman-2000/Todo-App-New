@@ -36,8 +36,13 @@ hr{
     margin: 10px;
     padding: 10px;
     width: 125px;
+<<<<<<< HEAD
     background-color:  rgb(155, 153, 223);
     /* border-radius: 10px; */
+=======
+    background-color:  burlywood;
+    border-radius: 10px;
+>>>>>>> e7841b926357c3663dc8a9bf61ee571b207c8dfa
     font-size: 1.2rem;
     cursor: pointer;
 
@@ -45,6 +50,7 @@ hr{
 .btn:hover{
     background-color: transparent;
 }
+<<<<<<< HEAD
 
 .btnInner{
     font-size: 1.1rem;
@@ -63,3 +69,5 @@ li{
     /* letter-spacing: .1rem; */
 
 }
+=======
+>>>>>>> e7841b926357c3663dc8a9bf61ee571b207c8dfa
