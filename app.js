@@ -4,8 +4,10 @@ var list = document.getElementById('list');
 
 function addTodo(){
     var todo_item = document.getElementById("todo-item");
-
-    // list details
+    if(todo_item.value== ''){
+        alert("Type something before add task");
+    }else{
+        // list details
     var li = document.createElement("li") //HTML ka tag create kr k deta hai
     var text = document.createTextNode(todo_item.value)
     li.appendChild(text) // for inserting the values
@@ -36,15 +38,26 @@ function addTodo(){
 
     list.appendChild(li)
     todo_item.value=''
+    }
+
+    
 }
 
-function deleteAll(){
-    list.innerHTML=''
+// function deleteAll(){
+//     list.innerHTML=''
+// }
+
+deleteAll = () =>{
+    list.innerHTML =''
 }
 
-function deleteItem(e){
-    // console.log(e) // e is just a parameter
+// function deleteItem(e){
+//     // console.log(e) // e is just a parameter
 
+//     e.parentNode.remove();
+// }
+
+deleteItem = (e) =>{
     e.parentNode.remove();
 }
 
